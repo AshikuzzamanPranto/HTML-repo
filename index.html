@@ -1,11 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html" title="visit home page">Home</a>
+        </li>
+        <li>
+          <a href="#about" title="visit about page">About</a>
+        </li>
+        <li>
+          <a href="#skills" title="visit skill page">Skill</a>
+        </li>
+        <li>
+          <a href="#contact" title="visit contact page">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Ashikuzzaman Pranto</h1>
+      <p>
+        <em
+          >I'm a Student. Currently, I'm Learning and Working on Software
+          Development.</em
+        >
+      </p>
+      <img src="Image.gif" alt="Programming & Coding" height="200px" />
+      <hr />
+    </header>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Passionate about Software Development & Programming.</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React.JS</li>
+        <li>Python</li>
+        <li>MySQL</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+    <section>
+      <table border="1" cellpadding="5" style="border-collapse: collapse">
+        <thead>
+          <tr>
+            <th>Technology</th>
+            <th>Proficiency</th>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>Expert</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Expert</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Intermediate</td>
+          </tr>
+        </thead>
+      </table>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form
+        action=""
+        style="border: 1px solid black; display: inline-block; padding: 20px"
+      >
+        <div>
+          <label for="name">Name: </label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Type your name..."
+            name="name"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Type your email..."
+            name="email"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="message">Message: </label>
+          <textarea
+            name="textarea"
+            id="message"
+            rows="7"
+            cols="20"
+            placeholder="Write Here..."
+          ></textarea>
+        </div>
+
+        <input type="submit" value="submit" />
+        <input type="reset" value="reset" style="float: right" />
+      </form>
+    </section>
+
+    <footer>
+      <p>Copyright &copy; 2025 Pranto. All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>
