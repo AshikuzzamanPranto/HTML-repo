@@ -1,0 +1,154 @@
+:root {
+  --primary-color: rgb(45, 144, 45);
+  --secondery-color: bisque;
+}
+
+body {
+  background-color: rgb(232, 224, 213);
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: rgb(100, 42, 0);
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+.card img{
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+form{
+  width: fit-content;
+  margin: auto;
+}
+#contact input, select, textarea {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+fieldset{
+  width: fit-content;
+  padding: 30px 60px;
+}
+
+
+button {
+  background-color: rgb(145, 101, 47);
+  border: none;
+  color: rgb(251, 222, 188);
+  font-size: larger;
+  margin: 10px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+.button{
+  text-align: center;
+}
+button:hover {
+  background-color: rgb(236, 162, 83);
+  color: rgb(36, 33, 27);
+}
+.card{
+  background-color: rgb(255, 255, 227);
+  box-shadow: 4px 4px 5px rgb(83, 78, 70);
+  border-radius: 10px;
+  margin: 18px;
+  padding: 20px;
+}
+
+header {
+  background-color: rgb(218, 192, 169);
+  text-align: center;
+  padding: 20px 0;
+}
+nav{
+
+  
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  /* this one for flex layout. */
+  margin: 0 15px;
+  
+}
+
+nav ul li a {
+  text-decoration-line: none;
+  color: rgb(16, 43, 64);
+  font-weight: bold;
+}
+#skills div {
+  width: fit-content;
+  margin: auto;
+  
+  
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding: 18px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+table,
+th,
+td {
+  text-align: center;
+  border-collapse: collapse;
+  padding: 10px;
+  
+}
+td{
+  border: 1px solid black;
+}
+
+
+.progress{
+  text-align: center;
+}
+.datalist{
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+legend{
+  text-align: center;
+  font-size: large;
+}
+
+footer {
+  background-color: rgb(218, 192, 169);
+  color: rgb(36, 33, 27);
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
